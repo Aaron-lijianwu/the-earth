@@ -1,0 +1,808 @@
+[ 2017-09-01T09:57:20+08:00 ] 127.0.0.1 /admin.php?catid=3&c=content&a=index&title=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002451s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0172s ]
+NOTIC: [8] Undefined index: catit /Library/WebServer/News/Application/Common/Model/ContentModel.class.php 第 28 行.
+SQL: SELECT * FROM `cms_news` WHERE `catid` = 3 AND `status` <> -1  [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1  [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: title /Library/WebServer/News/Application/Admin/Controller/ContentController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002439s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002532s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0037s ]
+NOTIC: [2] Missing argument 2 for getCatName(), called in /Library/WebServer/News/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php on line 166 and defined /Library/WebServer/News/Application/Common/Common/function.php 第 64 行.
+NOTIC: [2] Illegal string offset 'menu_id' /Library/WebServer/News/Application/Common/Common/function.php 第 71 行.
+NOTIC: [8] Undefined variable: catid /Library/WebServer/News/Application/Common/Common/function.php 第 71 行.
+NOTIC: [2] Missing argument 2 for getCatName(), called in /Library/WebServer/News/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php on line 166 and defined /Library/WebServer/News/Application/Common/Common/function.php 第 64 行.
+NOTIC: [2] Illegal string offset 'menu_id' /Library/WebServer/News/Application/Common/Common/function.php 第 71 行.
+NOTIC: [8] Undefined variable: catid /Library/WebServer/News/Application/Common/Common/function.php 第 71 行.
+NOTIC: [2] Missing argument 2 for getCatName(), called in /Library/WebServer/News/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php on line 166 and defined /Library/WebServer/News/Application/Common/Common/function.php 第 64 行.
+NOTIC: [2] Illegal string offset 'menu_id' /Library/WebServer/News/Application/Common/Common/function.php 第 71 行.
+NOTIC: [8] Undefined variable: catid /Library/WebServer/News/Application/Common/Common/function.php 第 71 行.
+NOTIC: [8] Undefined variable: pageres /Library/WebServer/News/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005983s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007228s ]
+
+[ 2017-09-01T09:57:21+08:00 ] 127.0.0.1 /admin.php?catid=3&c=content&a=index&title=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: catit /Library/WebServer/News/Application/Common/Model/ContentModel.class.php 第 28 行.
+SQL: SELECT * FROM `cms_news` WHERE `catid` = 3 AND `status` <> -1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: title /Library/WebServer/News/Application/Admin/Controller/ContentController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for getCatName(), called in /Library/WebServer/News/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php on line 166 and defined /Library/WebServer/News/Application/Common/Common/function.php 第 64 行.
+NOTIC: [2] Illegal string offset 'menu_id' /Library/WebServer/News/Application/Common/Common/function.php 第 71 行.
+NOTIC: [8] Undefined variable: catid /Library/WebServer/News/Application/Common/Common/function.php 第 71 行.
+NOTIC: [2] Missing argument 2 for getCatName(), called in /Library/WebServer/News/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php on line 166 and defined /Library/WebServer/News/Application/Common/Common/function.php 第 64 行.
+NOTIC: [2] Illegal string offset 'menu_id' /Library/WebServer/News/Application/Common/Common/function.php 第 71 行.
+NOTIC: [8] Undefined variable: catid /Library/WebServer/News/Application/Common/Common/function.php 第 71 行.
+NOTIC: [2] Missing argument 2 for getCatName(), called in /Library/WebServer/News/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php on line 166 and defined /Library/WebServer/News/Application/Common/Common/function.php 第 64 行.
+NOTIC: [2] Illegal string offset 'menu_id' /Library/WebServer/News/Application/Common/Common/function.php 第 71 行.
+NOTIC: [8] Undefined variable: catid /Library/WebServer/News/Application/Common/Common/function.php 第 71 行.
+NOTIC: [8] Undefined variable: pageres /Library/WebServer/News/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2017-09-01T09:57:21+08:00 ] 127.0.0.1 /admin.php?catid=3&c=content&a=index&title=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: catit /Library/WebServer/News/Application/Common/Model/ContentModel.class.php 第 28 行.
+SQL: SELECT * FROM `cms_news` WHERE `catid` = 3 AND `status` <> -1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title /Library/WebServer/News/Application/Admin/Controller/ContentController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for getCatName(), called in /Library/WebServer/News/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php on line 166 and defined /Library/WebServer/News/Application/Common/Common/function.php 第 64 行.
+NOTIC: [2] Illegal string offset 'menu_id' /Library/WebServer/News/Application/Common/Common/function.php 第 71 行.
+NOTIC: [8] Undefined variable: catid /Library/WebServer/News/Application/Common/Common/function.php 第 71 行.
+NOTIC: [2] Missing argument 2 for getCatName(), called in /Library/WebServer/News/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php on line 166 and defined /Library/WebServer/News/Application/Common/Common/function.php 第 64 行.
+NOTIC: [2] Illegal string offset 'menu_id' /Library/WebServer/News/Application/Common/Common/function.php 第 71 行.
+NOTIC: [8] Undefined variable: catid /Library/WebServer/News/Application/Common/Common/function.php 第 71 行.
+NOTIC: [2] Missing argument 2 for getCatName(), called in /Library/WebServer/News/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php on line 166 and defined /Library/WebServer/News/Application/Common/Common/function.php 第 64 行.
+NOTIC: [2] Illegal string offset 'menu_id' /Library/WebServer/News/Application/Common/Common/function.php 第 71 行.
+NOTIC: [8] Undefined variable: catid /Library/WebServer/News/Application/Common/Common/function.php 第 71 行.
+NOTIC: [8] Undefined variable: pageres /Library/WebServer/News/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2017-09-01T09:57:34+08:00 ] 127.0.0.1 /admin.php?c=position&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001360s ]
+
+[ 2017-09-01T09:57:35+08:00 ] 127.0.0.1 /admin.php?c=menu&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Undefined index: p /Library/WebServer/News/Application/Admin/Controller/MenuController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 45 行.
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc, menu_id desc LIMIT 0,3   [ RunTime:0.0005s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2017-09-01T09:57:41+08:00 ] 127.0.0.1 /admin.php?c=admin&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_admin` WHERE `status` <> -1  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Array to string conversion /Library/WebServer/News/Application/Runtime/Cache/Admin/b682812e058c4f7cab74d08ab9eabe11.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001348s ]
+
+[ 2017-09-01T09:57:44+08:00 ] 127.0.0.1 /admin.php?c=content&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined index: catid /Library/WebServer/News/Application/Admin/Controller/ContentController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: catit /Library/WebServer/News/Application/Common/Model/ContentModel.class.php 第 28 行.
+SQL: SELECT * FROM `cms_news` WHERE `catid` = 0 AND `status` <> -1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title /Library/WebServer/News/Application/Admin/Controller/ContentController.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: pageres /Library/WebServer/News/Application/Runtime/Cache/Admin/ccc9ced3ad798311a07cb47b740981c5.php 第 187 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2017-09-01T10:50:41+08:00 ] 127.0.0.1 /admin.php?c=menu&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002094s ]
+NOTIC: [8] Undefined index: p /Library/WebServer/News/Application/Admin/Controller/MenuController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 45 行.
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc, menu_id desc LIMIT 0,3   [ RunTime:0.0005s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002094s ]
+
+[ 2017-09-01T10:50:41+08:00 ] 127.0.0.1 /admin.php?c=menu&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+NOTIC: [8] Undefined index: p /Library/WebServer/News/Application/Admin/Controller/MenuController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 45 行.
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc, menu_id desc LIMIT 0,3   [ RunTime:0.0011s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-09-01T10:50:44+08:00 ] 127.0.0.1 /admin.php?m=Admin&c=Menu&a=index&p=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 45 行.
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc, menu_id desc LIMIT 9,3   [ RunTime:0.0004s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2017-09-01T10:50:46+08:00 ] 127.0.0.1 /admin.php?m=Admin&c=Menu&a=index&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 45 行.
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc, menu_id desc LIMIT 3,3   [ RunTime:0.0004s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2017-09-01T10:51:20+08:00 ] 127.0.0.1 /admin.php?c=basic&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: type /Library/WebServer/News/Application/Runtime/Cache/Admin/bb97361d9e4731aec48331de29e1c4d1.php 第 99 行.
+NOTIC: [8] Undefined variable: type /Library/WebServer/News/Application/Runtime/Cache/Admin/bb97361d9e4731aec48331de29e1c4d1.php 第 100 行.
+NOTIC: [8] Undefined variable: vo /Library/WebServer/News/Application/Runtime/Cache/Admin/bb97361d9e4731aec48331de29e1c4d1.php 第 112 行.
+NOTIC: [8] Undefined variable: vo /Library/WebServer/News/Application/Runtime/Cache/Admin/bb97361d9e4731aec48331de29e1c4d1.php 第 119 行.
+NOTIC: [8] Undefined variable: vo /Library/WebServer/News/Application/Runtime/Cache/Admin/bb97361d9e4731aec48331de29e1c4d1.php 第 125 行.
+NOTIC: [8] Undefined variable: vo /Library/WebServer/News/Application/Runtime/Cache/Admin/bb97361d9e4731aec48331de29e1c4d1.php 第 132 行.
+NOTIC: [8] Undefined variable: vo /Library/WebServer/News/Application/Runtime/Cache/Admin/bb97361d9e4731aec48331de29e1c4d1.php 第 133 行.
+NOTIC: [8] Undefined variable: vo /Library/WebServer/News/Application/Runtime/Cache/Admin/bb97361d9e4731aec48331de29e1c4d1.php 第 140 行.
+NOTIC: [8] Undefined variable: vo /Library/WebServer/News/Application/Runtime/Cache/Admin/bb97361d9e4731aec48331de29e1c4d1.php 第 141 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2017-09-01T11:14:44+08:00 ] 127.0.0.1 /admin.php?c=menu&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+NOTIC: [8] Undefined index: p /Library/WebServer/News/Application/Admin/Controller/MenuController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 45 行.
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc, menu_id desc LIMIT 0,3   [ RunTime:0.0008s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003688s ]
+
+[ 2017-09-01T11:14:46+08:00 ] 127.0.0.1 /admin.php?m=Admin&c=Menu&a=index&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 45 行.
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc, menu_id desc LIMIT 3,3   [ RunTime:0.0004s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2017-09-01T11:14:46+08:00 ] 127.0.0.1 /admin.php?m=Admin&c=Menu&a=index&p=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 45 行.
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc, menu_id desc LIMIT 6,3   [ RunTime:0.0007s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2017-09-01T11:14:47+08:00 ] 127.0.0.1 /admin.php?m=Admin&c=Menu&a=index&p=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 45 行.
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc, menu_id desc LIMIT 9,3   [ RunTime:0.0003s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0006s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001448s ]
+
+[ 2017-09-01T11:14:50+08:00 ] 127.0.0.1 /admin.php?m=Admin&c=Menu&a=index&p=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 45 行.
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc, menu_id desc LIMIT 6,3   [ RunTime:0.0004s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2017-09-01T11:15:27+08:00 ] 127.0.0.1 /admin.php?m=Admin&c=Menu&a=index&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 45 行.
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc, menu_id desc LIMIT 3,3   [ RunTime:0.0004s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2017-09-01T11:15:29+08:00 ] 127.0.0.1 /admin.php?m=Admin&c=Menu&a=index&p=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 45 行.
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc, menu_id desc LIMIT 6,3   [ RunTime:0.0004s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2017-09-01T11:15:30+08:00 ] 127.0.0.1 /admin.php?m=Admin&c=Menu&a=index&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 45 行.
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc, menu_id desc LIMIT 3,3   [ RunTime:0.0006s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2017-09-01T11:15:32+08:00 ] 127.0.0.1 /admin.php?m=Admin&c=Menu&a=index&p=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 45 行.
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc, menu_id desc LIMIT 6,3   [ RunTime:0.0003s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2017-09-01T11:15:32+08:00 ] 127.0.0.1 /admin.php?m=Admin&c=Menu&a=index&p=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 45 行.
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc, menu_id desc LIMIT 9,3   [ RunTime:0.0004s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0005s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2017-09-01T11:15:34+08:00 ] 127.0.0.1 /admin.php?m=Admin&c=Menu&a=index&p=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 45 行.
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc, menu_id desc LIMIT 6,3   [ RunTime:0.0004s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2017-09-01T11:16:18+08:00 ] 127.0.0.1 /admin.php?m=Admin&c=Menu&a=index&p=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 45 行.
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc, menu_id desc LIMIT 9,3   [ RunTime:0.0004s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001076s ]
+
+[ 2017-09-01T11:16:20+08:00 ] 127.0.0.1 /admin.php?m=Admin&c=Menu&a=index&p=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 45 行.
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 ORDER BY listorder desc, menu_id desc LIMIT 6,3   [ RunTime:0.0004s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 61 行.
+NOTIC: [8] Undefined index: type /Library/WebServer/News/Application/Common/Model/MenuModel.class.php 第 62 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_menu` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0004s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2017-09-01T14:44:14+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+NOTIC: [8] Undefined variable: module /Library/WebServer/News/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /Library/WebServer/News/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /Library/WebServer/News/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /Library/WebServer/News/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-09-01T14:44:14+08:00 ] 127.0.0.1 /admin.php?m=&&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc, menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: news /Library/WebServer/News/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 171 行.
+NOTIC: [8] Undefined variable: positioncount /Library/WebServer/News/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001486s ]
+

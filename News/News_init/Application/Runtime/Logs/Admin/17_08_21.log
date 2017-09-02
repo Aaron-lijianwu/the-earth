@@ -1,0 +1,187 @@
+[ 2017-08-21T19:28:30+08:00 ] 127.0.0.1 /News_init/index.php?m=admin&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-08-21T19:28:39+08:00 ] 127.0.0.1 /News_init/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2017-08-21T19:28:40+08:00 ] 127.0.0.1 /News_init/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000280s ]
+
+[ 2017-08-21T19:28:50+08:00 ] 127.0.0.1 /News_init/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2017-08-21T20:04:45+08:00 ] 127.0.0.1 /News_init/index.php?m=admin&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000296s ]
+
+[ 2017-08-21T20:05:08+08:00 ] 127.0.0.1 /News_init/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+ERR: 1146:Table 'news_cms.think_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_admin`
+ERR: 1146:Table 'news_cms.think_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_admin`
+
+[ 2017-08-21T20:05:08+08:00 ] 127.0.0.1 /News_init/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+ERR: 1146:Table 'news_cms.think_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_admin`
+ERR: 1146:Table 'news_cms.think_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_admin`
+
+[ 2017-08-21T20:05:09+08:00 ] 127.0.0.1 /News_init/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+ERR: 1146:Table 'news_cms.think_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_admin`
+ERR: 1146:Table 'news_cms.think_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_admin`
+
+[ 2017-08-21T20:05:09+08:00 ] 127.0.0.1 /News_init/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+ERR: 1146:Table 'news_cms.think_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_admin`
+ERR: 1146:Table 'news_cms.think_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_admin`
+
+[ 2017-08-21T20:05:09+08:00 ] 127.0.0.1 /News_init/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+ERR: 1146:Table 'news_cms.think_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_admin`
+ERR: 1146:Table 'news_cms.think_admin' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_admin`
+
+[ 2017-08-21T20:11:33+08:00 ] 127.0.0.1 /News_init/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+ERR: 非法操作:admin
+
+[ 2017-08-21T20:15:49+08:00 ] 127.0.0.1 /News_init/index.php?m=Admin&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Undefined variable: module /Library/WebServer/News/News_init/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /Library/WebServer/News/News_init/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /Library/WebServer/News/News_init/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /Library/WebServer/News/News_init/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-08-21T20:16:24+08:00 ] 127.0.0.1 /News_init/index.php?m=Admin&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] Undefined variable: module /Library/WebServer/News/News_init/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /Library/WebServer/News/News_init/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /Library/WebServer/News/News_init/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /Library/WebServer/News/News_init/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-08-21T21:12:01+08:00 ] 127.0.0.1 /News_init/index.php?m=Admin&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+NOTIC: [8] Undefined variable: module /Library/WebServer/News/News_init/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var /Library/WebServer/News/News_init/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /Library/WebServer/News/News_init/ThinkPHP/Common/functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given /Library/WebServer/News/News_init/ThinkPHP/Common/functions.php 第 990 行.
+
+[ 2017-08-21T21:13:30+08:00 ] 127.0.0.1 /News_init/admin.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+ERR: 非法操作:admin
+
